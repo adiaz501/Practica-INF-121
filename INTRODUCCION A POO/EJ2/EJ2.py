@@ -46,23 +46,22 @@ if __name__ == "__main__":
 
     print("-----------PRIMERA PARADA------------")
     miBus.subirPasajeros(20)
-    miBus.asientosDisponibles()
     miBus.cobrarPasaje()
+    miBus.asientosDisponibles()
 
     print("-------------------------------------")
     print("-----------SEGUNDA PARADA------------")
     miBus.subirPasajeros(15)
     miBus.cobrarPasaje()
+    miBus.asientosDisponibles()
 
     print("-------------------------------------")
-
     print("-----------TERCERA PARADA------------")
     miBus.subirPasajeros(20)
     miBus.cobrarPasaje()
-    print("-------------------------------------")
-
-    print("Verificar asientos disponibles")
     miBus.asientosDisponibles()
     print("=====================================")
+
+
 
 
