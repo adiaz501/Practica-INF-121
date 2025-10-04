@@ -1,59 +1,52 @@
 class Fruta:
-    def __init__(self, nombre: str, tipo: str, vitaminas: list):
+    def __init__(self, nombre, tipo, vitaminas):
         self.nombre = nombre
         self.tipo = tipo
-        self.v = vitaminas
+        self.vitaminas = vitaminas
         self.nroVitaminas = len(vitaminas)
 
-    def getVitaminas(self) -> list:
-        return self.v
 
-    def es_citrica(self, nombre_vitamina: str) -> bool:
-        return nombre_vitamina.upper() == "C"
+fruta1 = Fruta("kiwi", "subtropical", ["K", "C", "E", "B1"])
 
-    def __str__(self):
-        return (f"Fruta(Nombre: {self.nombre}, Tipo: {self.tipo}, "
-                f"NroVitaminas: {self.nroVitaminas}, Vitaminas: {self.v})")
+vitaminas_naranja = ["C", "A", "B1"]
+fruta2 = Fruta("naranja", "cítrica", vitaminas_naranja)
 
-mandarina = Fruta("Mandarina", "Cítrica", ["C", "A"])
+fruta3 = Fruta("fresa", "bosque", ["C", "K", "B9"])
 
-nombre_b = "Plátano"
-tipo_b = "Tropical"
-vits_b = ["A", "B6", "K", "C"]
-platano = Fruta(nombre_b, tipo_b, vits_b)
+frutas = [fruta1, fruta2, fruta3]
 
-datos_kiwi = ["Kiwi", "Subtropical", ["E", "C", "K"]]
-kiwi = Fruta(*datos_kiwi)
-
-frutas = [mandarina, platano, kiwi]
-
+print("LAS 3 FRUTAS")
 for fruta in frutas:
-    print(fruta)
+    print(f"{fruta.nombre} - {fruta.tipo} - Vitaminas: {fruta.vitaminas}")
 
-fruta_mas_vitaminas = mandarina
-max_vits = mandarina.nroVitaminas
-
+fruta_mas_vitaminas = frutas[0]
 for fruta in frutas:
-    if fruta.nroVitaminas > max_vits:
-        max_vits = fruta.nroVitaminas
+    if fruta.nroVitaminas > fruta_mas_vitaminas.nroVitaminas:
         fruta_mas_vitaminas = fruta
 
-print(f"La fruta con más vitaminas es: {fruta_mas_vitaminas.nombre}")
-print(f"Número de vitaminas: {max_vits}")
+print(f"\nLa fruta con más vitaminas es: {fruta_mas_vitaminas.nombre}")
+print(f"Tiene {fruta_mas_vitaminas.nroVitaminas} vitaminas")
 
-fruta_x = kiwi
-vitaminas_x = fruta_x.getVitaminas()
-print(f"Vitaminas de {fruta_x.nombre}: {', '.join(vitaminas_x)}")
+print(f"\nVitaminas del kiwi: {fruta1.vitaminas}")
 
-contador_citricas = 0
+contador = 0
 for fruta in frutas:
-    for vitamina in fruta.getVitaminas():
-        if fruta.es_citrica(vitamina):
-            print(f"Vitamina C encontrada en: {fruta.nombre}")
-            contador_citricas += 1
-print(f"\nNúmero total de vitaminas 'C' (cítricas) encontradas: {contador_citricas}")
+    if "C" in fruta.vitaminas:
+        contador += 1
 
-frutas_ordenadas = sorted(frutas, key=lambda fruta: fruta.v[0])
-print("Orden de las frutas (según el nombre de su primera vitamina):")
+print(f"\nFrutas que tienen vitamina C: {contador}")
+
+print("FRUTAS ORDENADAS POR PRIMERA VITAMINA")
+
+frutas_ordenadas = frutas.copy()
+
+for i in range(len(frutas_ordenadas)):
+    for j in range(i + 1, len(frutas_ordenadas)):
+
+        if frutas_ordenadas[i].vitaminas[0] > frutas_ordenadas[j].vitaminas[0]:
+            temp = frutas_ordenadas[i]
+            frutas_ordenadas[i] = frutas_ordenadas[j]
+            frutas_ordenadas[j] = temp
+
 for fruta in frutas_ordenadas:
-    print(f"- {fruta.nombre} (Clave de orden: {fruta.v[0]})")
+    print(f"{fruta.nombre}: {fruta.vitaminas[0]}")
