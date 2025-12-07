@@ -1,0 +1,37 @@
+[
+  {
+    "codigo": 101,
+    "nombre": "Monitor 27\"",
+    "precio": 1500.0
+  },
+  {
+    "codigo": 102,
+    "nombre": "Teclado Mecánico",
+    "precio": 450.0
+  },
+  {
+    "codigo": 103,
+    "nombre": "Mouse Gamer",
+    "precio": 320.0
+  },
+  {
+    "codigo": 104,
+    "nombre": "Laptop Pro",
+    "precio": 8000.0
+  },
+  {
+    "codigo": 105,
+    "nombre": "Webcam HD",
+    "precio": 250.0
+  },
+  {
+    "codigo": 106,
+    "nombre": "Monitor 32\"",
+    "precio": 1500.0
+  },
+  {
+    "codigo": 107,
+    "nombre": "Memoria RAM",
+    "precio": 850.0
+  }
+]

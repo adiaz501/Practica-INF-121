@@ -1,0 +1,50 @@
+[
+  {
+    "material": "Caparazón",
+    "nroCuerdas": 10,
+    "cuerdas": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "material": "Madera",
+    "nroCuerdas": 10,
+    "cuerdas": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "material": "Madera",
+    "nroCuerdas": 10,
+    "cuerdas": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+]

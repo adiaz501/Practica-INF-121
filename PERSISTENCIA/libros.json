@@ -1,0 +1,22 @@
+[
+  {
+    "codLibro": 1,
+    "titulo": "Cien años de soledad",
+    "precio": 85.5
+  },
+  {
+    "codLibro": 2,
+    "titulo": "Don Quijote",
+    "precio": 120.0
+  },
+  {
+    "codLibro": 3,
+    "titulo": "El principito",
+    "precio": 45.0
+  },
+  {
+    "codLibro": 4,
+    "titulo": "1984",
+    "precio": 95.0
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "edad": 5,
+    "peso": 18.0,
+    "talla": 105.0,
+    "nombre": "Juan",
+    "apellidoPaterno": "Pérez",
+    "apellidoMaterno": "López",
+    "ci": 1001
+  },
+  {
+    "edad": 6,
+    "peso": 22.0,
+    "talla": 115.0,
+    "nombre": "María",
+    "apellidoPaterno": "López",
+    "apellidoMaterno": "Gómez",
+    "ci": 1002
+  },
+  {
+    "edad": 4,
+    "peso": 14.0,
+    "talla": 95.0,
+    "nombre": "Carlos",
+    "apellidoPaterno": "García",
+    "apellidoMaterno": "Ramos",
+    "ci": 1003
+  },
+  {
+    "edad": 7,
+    "peso": 28.0,
+    "talla": 125.0,
+    "nombre": "Ana",
+    "apellidoPaterno": "Martínez",
+    "apellidoMaterno": "Díaz",
+    "ci": 1004
+  },
+  {
+    "edad": 5,
+    "peso": 25.0,
+    "talla": 125.0,
+    "nombre": "Luis",
+    "apellidoPaterno": "Rodríguez",
+    "apellidoMaterno": "Soto",
+    "ci": 1005
+  },
+  {
+    "edad": 6,
+    "peso": 20.0,
+    "talla": 112.0,
+    "nombre": "Sofia",
+    "apellidoPaterno": "Torres",
+    "apellidoMaterno": "Vega",
+    "ci": 1006
+  }
+]

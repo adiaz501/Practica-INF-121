@@ -1,0 +1,46 @@
+[
+  {
+    "materia": "Base de Datos",
+    "notaFinal": 78.5,
+    "estudiante": {
+      "ru": "202012347",
+      "nombre": "Carlos",
+      "paterno": "Rodríguez",
+      "materno": "Sánchez",
+      "edad": 19
+    }
+  },
+  {
+    "materia": "Base de Datos",
+    "notaFinal": 92.0,
+    "estudiante": {
+      "ru": "202012349",
+      "nombre": "Luis",
+      "paterno": "Mendoza",
+      "materno": "Vargas",
+      "edad": 20
+    }
+  },
+  {
+    "materia": "Física",
+    "notaFinal": 70.0,
+    "estudiante": {
+      "ru": "202012345",
+      "nombre": "Juan",
+      "paterno": "Pérez",
+      "materno": "López",
+      "edad": 20
+    }
+  },
+  {
+    "materia": "Electronica",
+    "notaFinal": 90.0,
+    "estudiante": {
+      "ru": "202012350",
+      "nombre": "Sofía",
+      "paterno": "Ramos",
+      "materno": "Cruz",
+      "edad": 21
+    }
+  }
+]

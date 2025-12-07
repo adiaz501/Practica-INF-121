@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Leche",
+    "fechaVencimiento": "Dec 1, 2025, 12:00:00 AM",
+    "cantidad": 2
+  },
+  {
+    "nombre": "Yogurt",
+    "fechaVencimiento": "Jan 25, 2026, 12:00:00 AM",
+    "cantidad": 8
+  },
+  {
+    "nombre": "Mantequilla",
+    "fechaVencimiento": "Jan 30, 2026, 12:00:00 AM",
+    "cantidad": 4
+  },
+  {
+    "nombre": "Huevos",
+    "fechaVencimiento": "Dec 18, 2025, 12:00:00 AM",
+    "cantidad": 12
+  }
+]

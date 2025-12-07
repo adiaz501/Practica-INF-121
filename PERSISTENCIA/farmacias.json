@@ -1,0 +1,86 @@
+[
+  {
+    "nombreFarmacia": "Farmacia Central",
+    "sucursal": 1,
+    "direccion": "Av. 6 de Agosto",
+    "nroMedicamentos": 2,
+    "medicamentos": [
+      {
+        "nombre": "Ibuprofeno",
+        "codMedicamento": 1002,
+        "tipo": "dolor",
+        "precio": 5.0
+      },
+      {
+        "nombre": "Aspirina",
+        "codMedicamento": 1004,
+        "tipo": "dolor",
+        "precio": 4.0
+      }
+    ]
+  },
+  {
+    "nombreFarmacia": "Farmacia La Paz",
+    "sucursal": 3,
+    "direccion": "Av. Buenos Aires",
+    "nroMedicamentos": 3,
+    "medicamentos": [
+      {
+        "nombre": "Ambroxol",
+        "codMedicamento": 3001,
+        "tipo": "tos",
+        "precio": 10.0
+      },
+      {
+        "nombre": "Amoxicilina",
+        "codMedicamento": 3002,
+        "tipo": "antibiotico",
+        "precio": 20.0
+      },
+      {
+        "nombre": "Vit. C",
+        "codMedicamento": 3003,
+        "tipo": "vitaminas",
+        "precio": 7.0
+      }
+    ]
+  },
+  {
+    "nombreFarmacia": "Farmacia Sucursal",
+    "sucursal": 2,
+    "direccion": "Calle Comercio",
+    "nroMedicamentos": 5,
+    "medicamentos": [
+      {
+        "nombre": "Tapsin",
+        "codMedicamento": 2001,
+        "tipo": "tos",
+        "precio": 8.5
+      },
+      {
+        "nombre": "Paracetamol",
+        "codMedicamento": 2002,
+        "tipo": "fiebre",
+        "precio": 3.5
+      },
+      {
+        "nombre": "Amoxicilina",
+        "codMedicamento": 2003,
+        "tipo": "antibiotico",
+        "precio": 20.0
+      },
+      {
+        "nombre": "Tapsin",
+        "codMedicamento": 1001,
+        "tipo": "tos",
+        "precio": 8.5
+      },
+      {
+        "nombre": "Dextrometorfano",
+        "codMedicamento": 1003,
+        "tipo": "tos",
+        "precio": 12.0
+      }
+    ]
+  }
+]

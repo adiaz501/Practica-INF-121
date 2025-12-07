@@ -1,0 +1,32 @@
+[
+  {
+    "codCliente": "12345678",
+    "codLibro": 1,
+    "fechaPrestamo": "2025-02-01",
+    "cantidad": 1
+  },
+  {
+    "codCliente": "87654321",
+    "codLibro": 1,
+    "fechaPrestamo": "2025-02-05",
+    "cantidad": 2
+  },
+  {
+    "codCliente": "12345678",
+    "codLibro": 2,
+    "fechaPrestamo": "2025-02-10",
+    "cantidad": 1
+  },
+  {
+    "codCliente": "12345678",
+    "codLibro": 3,
+    "fechaPrestamo": "2025-02-15",
+    "cantidad": 3
+  },
+  {
+    "codCliente": "11223344",
+    "codLibro": 2,
+    "fechaPrestamo": "2025-02-20",
+    "cantidad": 1
+  }
+]
